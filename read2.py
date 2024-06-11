@@ -1,7 +1,7 @@
 #better way to open and read a file
 #Note how we do not need to close the file 
 
-with open('Text1.txt','r',encoding='utf-8') as file:
+with open('Text2.txt','r',encoding='utf-8') as file:
     for line in file:
         #print(line,end='')
         #Alternative of end''
