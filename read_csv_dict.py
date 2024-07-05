@@ -7,3 +7,4 @@ with open(filename,'r',encoding='utf-8',newline='') as data:
     reader = csv.DictReader(data)
     for row in reader:
         print(row)
+        

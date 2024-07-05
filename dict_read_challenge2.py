@@ -2,6 +2,9 @@ import csv
 filename = 'country_info.txt'
 countries ={}
 
+dialect = csv.excel
+dialect.delimiter='|'
+
 with open(filename,'r',encoding='utf-8',newline='') as data:
     sample =""
     for line in range(3):
